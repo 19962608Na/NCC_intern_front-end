@@ -1,0 +1,117 @@
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .col-s-6{
+        display: block;
+        float: left;
+        padding-left: 4%;
+    }
+    
+    .col-s-6 icon{
+        width: 30%;
+        height: auto;
+    }
+
+    #sidebar {
+        position: relative;          
+        height: 40px;
+        background: #191718;  
+        color: #ffffff;
+        margin-bottom: 5%;
+      }
+      
+      #sidebar ul li a{
+        text-decoration: none;
+        display: inline-block;
+        height: 40px;
+        line-height:  40px;
+        color: #aaaaaa;
+        font-weight: 700px;
+        font-family: 'roboto';     
+        padding: 0px 2px 0px 20px;
+      }
+      
+      #sidebar ul li {
+        float: left;
+        text-align: left;
+        list-style-type: none  
+      }
+      
+      #sidebar ul li a:hover {
+        color: #ffffff;
+        background-color: #5C5C5C;          
+      }
+      
+      #content {
+        position: relative;        
+        /* min-height: 100vh; */
+        background: #ffffff;
+        
+      }
+      
+      #logo {
+        display: block;
+        width: 90%;
+        height: auto;
+        position: relative;
+        padding: 2% 2%;
+        margin-bottom: 1%;
+      }
+      
+      #footer {
+        clear: both;
+        font-weight: 400;
+        height: 40px;
+        font-size: 16px;
+        line-height: 50px;
+        border-top: 1px solid #dedede;
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        display: inline-block;
+      }
+      
+      #rectangle1 {
+        width: 100%;
+        height: auto;
+        background: #efefef;
+        padding: 2% 2%;
+        margin-bottom: 2%;
+      }
+      
+      #rectangle1 h5 {
+        width: 75%;
+        height: fit-content;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+        padding-bottom: 1%;
+      }
+      
+      #rectangle1 p {
+        width: 75%;
+        height: fit-content;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+      }
+      
+      
+}
